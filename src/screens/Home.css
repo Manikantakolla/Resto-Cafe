@@ -1,0 +1,22 @@
+.glowing-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+  }
+  
+  .glowing-heading {
+    animation: glow 01s infinite alternate;
+    font-family: 'Brush Script MT', cursive; 
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+    }
+    100% {
+      text-shadow: 0 0 5px #fff, 0 0 10px #ff00de, 0 0 20px #ff00de;
+    }
+  }
+  
